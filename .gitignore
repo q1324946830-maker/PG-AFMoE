@@ -1,0 +1,56 @@
+# Local datasets and downloaded external backbones
+inputs/
+input/
+datasets/
+dataset/
+Dataset/
+Datasets/
+Related-Models/
+related-models/
+
+# Training artifacts and generated files
+models/
+outputs/
+output/
+runs/
+experiment_results/
+experiment_results_*/
+dryrun_check/
+instrustion_md/
+*.log
+*.csv
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.mat
+*.nii
+*.nii.gz
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+val_GBC_output_evaluation_metrics_of_the_model.txt
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.venv/
+venv/
+
+# Local secrets and operating-system files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+desktop.ini
